@@ -13,7 +13,7 @@ function App() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch("/data/productos.json")
+    fetch(`${import.meta.env.BASE_URL}data/productos.json`)
       .then((respuesta) => {
         if (!respuesta.ok) {
           throw new Error("No se pudo leer el catálogo");

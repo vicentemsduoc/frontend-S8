@@ -38,7 +38,7 @@ function Carrusel() {
   return (
     <section className="mb-4 bg-black rounded overflow-hidden position-relative">
       <img
-        src={actual.gif}
+        src={`${import.meta.env.BASE_URL}${actual.gif.replace(/^\//, "")}`}
         alt={"Gameplay de " + actual.nombre}
         className="w-100 object-fit-contain"
         style={{ height: "360px", backgroundColor: "#000" }}

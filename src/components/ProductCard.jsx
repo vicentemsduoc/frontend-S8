@@ -11,12 +11,12 @@ function ProductCard({
 
   return (
     <article className="card h-100 bg-dark text-white border-secondary">
-      <img
-        src={imagen}
-        alt={nombre}
-        className="card-img-top object-fit-cover"
-        style={{ height: "220px" }}
-      />
+    <img
+      src={`${import.meta.env.BASE_URL}${imagen.replace(/^\//, "")}`}
+      alt={nombre}
+      className="card-img-top object-fit-cover"
+      style={{ height: "220px" }}
+    />
       <div className="card-body d-flex flex-column">
         <h3 className="card-title h5">{nombre}</h3>
         <p className="card-text">{descripcion}</p>
