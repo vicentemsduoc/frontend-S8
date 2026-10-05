@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mario Kart DS",
+    "precioNormal": 8000,
+    "precioOferta": 4500,
+    "descripcion": "Cartucho DS del juego Mario Kart DS.",
+    "imagen": "/img/mario-kart-ds.png",
+    "stock": 13
+  },
+  {
+    "id": 2,
+    "nombre": "Silent Hill 1 PS1",
+    "precioNormal": 9000,
+    "precioOferta": 6500,
+    "descripcion": "Disco de Silent Hill para PS1.",
+    "imagen": "/img/silent-hill.jpg",
+    "stock": 4
+  },
+  {
+    "id": 3,
+    "nombre": "Nintendo DS usada",
+    "precioNormal": 25000,
+    "precioOferta": 15000,
+    "descripcion": "Pantallas sanas, lector en buen estado.",
+    "imagen": "/img/nds-fisica.webp",
+    "stock": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Pokémon Esmeralda GBA",
+    "precioNormal": 8000,
+    "precioOferta": 3500,
+    "descripcion": "Cartucho GBA de Pokémon Esmeralda.",
+    "imagen": "/img/pokemon-esmeralda-gba.jpg",
+    "stock": 7
+  },
+  {
+    "id": 5,
+    "nombre": "PlayStation 1 usada",
+    "precioNormal": 28000,
+    "precioOferta": 20000,
+    "descripcion": "Lector limpio, un control original.",
+    "imagen": "/img/ps1-fisica.webp",
+    "stock": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Hugo: The Quest for the Sunstones",
+    "precioNormal": 3500,
+    "precioOferta": 1500,
+    "descripcion": "Disco de Hugo: The Quest for the Sunstones para PC.",
+    "imagen": "/img/Hugo-The-Quest-for-the-Sunstones-ps1.jpg",
+    "stock": 2
+  },
+  {
+    "id": 7,
+    "nombre": "PolyStation Usada",
+    "precioNormal": 20000,
+    "precioOferta": 14000,
+    "descripcion": "Consola PolyStation usada en buen estado.",
+    "imagen": "/img/polystation-fisica.webp",
+    "stock": 4
+  }
+
+]
