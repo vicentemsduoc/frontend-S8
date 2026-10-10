@@ -1,16 +1,26 @@
-# React + Vite
+# Steam del Persa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Steam del Persa es una tienda de videojuegos y consolas orientados a la temática clásica.
 
-Currently, two official plugins are available:
+# ¿Para qué sirve la página web?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La página web sirve para buscar inteligentemente mediante el uso de filtros de búsqueda y mostrar el catálogo de productos y su stock, llevar un registro de los productos agregados a un carrito, informar acerca de los datos necesarios para contactarnos y realizar encargos de productos con la posibilidad de que el cliente agregue un mensaje que será leído por nosotros.
 
-## React Compiler
+# ¿Cómo funciona la página web?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La página web funciona en base a las siguientes tecnologías:
+  - HTML5 semántico
+  - CSS3 con variables y Flexbox
+  - Bootstrap 5 para la barra, las tarjetas y la grilla responsiva
+  - React 18 con Vite
+  - JavaScript: estado, props, eventos y Fetch API
+  - GitHub Pages
 
-## Expanding the ESLint configuration
+Gracias a estas tecnologías, la página web cuenta con:
+  - Una barra de búsqueda.
+  - Diseño de colores, imágenes y GIFs.
+  - Cards con los productos disponibles.
+  - Stock dinámico.
+  - Sistema de menú de almacenamiento de productos (carrito) y facilidad para agregar y eliminar productos.
+  - 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
